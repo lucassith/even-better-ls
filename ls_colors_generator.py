@@ -1237,7 +1237,7 @@ def translate(color_list):
     if type(v) is not str:
       if type(v[0]) is str:
         v[0] = ord(v[0])
-      if len(v) is  3:
+      if len(v) == 3:
         color = color_char(v[0], v[1], v[2])
       else:
         color = color_char(v[0], v[1])
